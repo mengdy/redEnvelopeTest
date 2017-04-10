@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BBDB079A1E9B2F6700962153 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BBDB07991E9B2F6700962153 /* main.m */; };
+		BBDB079D1E9B2F6700962153 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BBDB079C1E9B2F6700962153 /* AppDelegate.m */; };
+		BBDB07A01E9B2F6700962153 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBDB079F1E9B2F6700962153 /* ViewController.m */; };
+		BBDB07A31E9B2F6700962153 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBDB07A11E9B2F6700962153 /* Main.storyboard */; };
+		BBDB07A51E9B2F6700962153 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBDB07A41E9B2F6700962153 /* Assets.xcassets */; };
+		BBDB07A81E9B2F6700962153 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBDB07A61E9B2F6700962153 /* LaunchScreen.storyboard */; };
+		BBDB07B31E9B2F6700962153 /* RedEnvelopeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BBDB07B21E9B2F6700962153 /* RedEnvelopeTests.m */; };
+		BBDB07BE1E9B2F6700962153 /* RedEnvelopeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BBDB07BD1E9B2F6700962153 /* RedEnvelopeUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BBDB07AF1E9B2F6700962153 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBDB078D1E9B2F6600962153 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBDB07941E9B2F6600962153;
+			remoteInfo = RedEnvelope;
+		};
+		BBDB07BA1E9B2F6700962153 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBDB078D1E9B2F6600962153 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBDB07941E9B2F6600962153;
+			remoteInfo = RedEnvelope;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BBDB07951E9B2F6700962153 /* RedEnvelope.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedEnvelope.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBDB07991E9B2F6700962153 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BBDB079B1E9B2F6700962153 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BBDB079C1E9B2F6700962153 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BBDB079E1E9B2F6700962153 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BBDB079F1E9B2F6700962153 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BBDB07A21E9B2F6700962153 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BBDB07A41E9B2F6700962153 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BBDB07A71E9B2F6700962153 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BBDB07A91E9B2F6700962153 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBDB07AE1E9B2F6700962153 /* RedEnvelopeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedEnvelopeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBDB07B21E9B2F6700962153 /* RedEnvelopeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedEnvelopeTests.m; sourceTree = "<group>"; };
+		BBDB07B41E9B2F6700962153 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBDB07B91E9B2F6700962153 /* RedEnvelopeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedEnvelopeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBDB07BD1E9B2F6700962153 /* RedEnvelopeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedEnvelopeUITests.m; sourceTree = "<group>"; };
+		BBDB07BF1E9B2F6700962153 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBDB07921E9B2F6600962153 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBDB07AB1E9B2F6700962153 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBDB07B61E9B2F6700962153 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BBDB078C1E9B2F6600962153 = {
+			isa = PBXGroup;
+			children = (
+				BBDB07971E9B2F6700962153 /* RedEnvelope */,
+				BBDB07B11E9B2F6700962153 /* RedEnvelopeTests */,
+				BBDB07BC1E9B2F6700962153 /* RedEnvelopeUITests */,
+				BBDB07961E9B2F6700962153 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BBDB07961E9B2F6700962153 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBDB07951E9B2F6700962153 /* RedEnvelope.app */,
+				BBDB07AE1E9B2F6700962153 /* RedEnvelopeTests.xctest */,
+				BBDB07B91E9B2F6700962153 /* RedEnvelopeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBDB07971E9B2F6700962153 /* RedEnvelope */ = {
+			isa = PBXGroup;
+			children = (
+				BBDB079B1E9B2F6700962153 /* AppDelegate.h */,
+				BBDB079C1E9B2F6700962153 /* AppDelegate.m */,
+				BBDB079E1E9B2F6700962153 /* ViewController.h */,
+				BBDB079F1E9B2F6700962153 /* ViewController.m */,
+				BBDB07A11E9B2F6700962153 /* Main.storyboard */,
+				BBDB07A41E9B2F6700962153 /* Assets.xcassets */,
+				BBDB07A61E9B2F6700962153 /* LaunchScreen.storyboard */,
+				BBDB07A91E9B2F6700962153 /* Info.plist */,
+				BBDB07981E9B2F6700962153 /* Supporting Files */,
+			);
+			path = RedEnvelope;
+			sourceTree = "<group>";
+		};
+		BBDB07981E9B2F6700962153 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BBDB07991E9B2F6700962153 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BBDB07B11E9B2F6700962153 /* RedEnvelopeTests */ = {
+			isa = PBXGroup;
+			children = (
+				BBDB07B21E9B2F6700962153 /* RedEnvelopeTests.m */,
+				BBDB07B41E9B2F6700962153 /* Info.plist */,
+			);
+			path = RedEnvelopeTests;
+			sourceTree = "<group>";
+		};
+		BBDB07BC1E9B2F6700962153 /* RedEnvelopeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BBDB07BD1E9B2F6700962153 /* RedEnvelopeUITests.m */,
+				BBDB07BF1E9B2F6700962153 /* Info.plist */,
+			);
+			path = RedEnvelopeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBDB07941E9B2F6600962153 /* RedEnvelope */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBDB07C21E9B2F6700962153 /* Build configuration list for PBXNativeTarget "RedEnvelope" */;
+			buildPhases = (
+				BBDB07911E9B2F6600962153 /* Sources */,
+				BBDB07921E9B2F6600962153 /* Frameworks */,
+				BBDB07931E9B2F6600962153 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RedEnvelope;
+			productName = RedEnvelope;
+			productReference = BBDB07951E9B2F6700962153 /* RedEnvelope.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BBDB07AD1E9B2F6700962153 /* RedEnvelopeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBDB07C51E9B2F6700962153 /* Build configuration list for PBXNativeTarget "RedEnvelopeTests" */;
+			buildPhases = (
+				BBDB07AA1E9B2F6700962153 /* Sources */,
+				BBDB07AB1E9B2F6700962153 /* Frameworks */,
+				BBDB07AC1E9B2F6700962153 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBDB07B01E9B2F6700962153 /* PBXTargetDependency */,
+			);
+			name = RedEnvelopeTests;
+			productName = RedEnvelopeTests;
+			productReference = BBDB07AE1E9B2F6700962153 /* RedEnvelopeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BBDB07B81E9B2F6700962153 /* RedEnvelopeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBDB07C81E9B2F6700962153 /* Build configuration list for PBXNativeTarget "RedEnvelopeUITests" */;
+			buildPhases = (
+				BBDB07B51E9B2F6700962153 /* Sources */,
+				BBDB07B61E9B2F6700962153 /* Frameworks */,
+				BBDB07B71E9B2F6700962153 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBDB07BB1E9B2F6700962153 /* PBXTargetDependency */,
+			);
+			name = RedEnvelopeUITests;
+			productName = RedEnvelopeUITests;
+			productReference = BBDB07B91E9B2F6700962153 /* RedEnvelopeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBDB078D1E9B2F6600962153 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = mengdy;
+				TargetAttributes = {
+					BBDB07941E9B2F6600962153 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					BBDB07AD1E9B2F6700962153 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BBDB07941E9B2F6600962153;
+					};
+					BBDB07B81E9B2F6700962153 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BBDB07941E9B2F6600962153;
+					};
+				};
+			};
+			buildConfigurationList = BBDB07901E9B2F6600962153 /* Build configuration list for PBXProject "RedEnvelope" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BBDB078C1E9B2F6600962153;
+			productRefGroup = BBDB07961E9B2F6700962153 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBDB07941E9B2F6600962153 /* RedEnvelope */,
+				BBDB07AD1E9B2F6700962153 /* RedEnvelopeTests */,
+				BBDB07B81E9B2F6700962153 /* RedEnvelopeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBDB07931E9B2F6600962153 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBDB07A81E9B2F6700962153 /* LaunchScreen.storyboard in Resources */,
+				BBDB07A51E9B2F6700962153 /* Assets.xcassets in Resources */,
+				BBDB07A31E9B2F6700962153 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBDB07AC1E9B2F6700962153 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBDB07B71E9B2F6700962153 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBDB07911E9B2F6600962153 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBDB07A01E9B2F6700962153 /* ViewController.m in Sources */,
+				BBDB079D1E9B2F6700962153 /* AppDelegate.m in Sources */,
+				BBDB079A1E9B2F6700962153 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBDB07AA1E9B2F6700962153 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBDB07B31E9B2F6700962153 /* RedEnvelopeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBDB07B51E9B2F6700962153 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBDB07BE1E9B2F6700962153 /* RedEnvelopeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BBDB07B01E9B2F6700962153 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBDB07941E9B2F6600962153 /* RedEnvelope */;
+			targetProxy = BBDB07AF1E9B2F6700962153 /* PBXContainerItemProxy */;
+		};
+		BBDB07BB1E9B2F6700962153 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBDB07941E9B2F6600962153 /* RedEnvelope */;
+			targetProxy = BBDB07BA1E9B2F6700962153 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BBDB07A11E9B2F6700962153 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBDB07A21E9B2F6700962153 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BBDB07A61E9B2F6700962153 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBDB07A71E9B2F6700962153 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BBDB07C01E9B2F6700962153 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BBDB07C11E9B2F6700962153 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBDB07C31E9B2F6700962153 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RedEnvelope/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mengdy.RedEnvelope;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BBDB07C41E9B2F6700962153 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RedEnvelope/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mengdy.RedEnvelope;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BBDB07C61E9B2F6700962153 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RedEnvelopeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mengdy.RedEnvelopeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedEnvelope.app/RedEnvelope";
+			};
+			name = Debug;
+		};
+		BBDB07C71E9B2F6700962153 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RedEnvelopeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mengdy.RedEnvelopeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedEnvelope.app/RedEnvelope";
+			};
+			name = Release;
+		};
+		BBDB07C91E9B2F6700962153 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RedEnvelopeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mengdy.RedEnvelopeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RedEnvelope;
+			};
+			name = Debug;
+		};
+		BBDB07CA1E9B2F6700962153 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RedEnvelopeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mengdy.RedEnvelopeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RedEnvelope;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBDB07901E9B2F6600962153 /* Build configuration list for PBXProject "RedEnvelope" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBDB07C01E9B2F6700962153 /* Debug */,
+				BBDB07C11E9B2F6700962153 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBDB07C21E9B2F6700962153 /* Build configuration list for PBXNativeTarget "RedEnvelope" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBDB07C31E9B2F6700962153 /* Debug */,
+				BBDB07C41E9B2F6700962153 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BBDB07C51E9B2F6700962153 /* Build configuration list for PBXNativeTarget "RedEnvelopeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBDB07C61E9B2F6700962153 /* Debug */,
+				BBDB07C71E9B2F6700962153 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BBDB07C81E9B2F6700962153 /* Build configuration list for PBXNativeTarget "RedEnvelopeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBDB07C91E9B2F6700962153 /* Debug */,
+				BBDB07CA1E9B2F6700962153 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBDB078D1E9B2F6600962153 /* Project object */;
+}
