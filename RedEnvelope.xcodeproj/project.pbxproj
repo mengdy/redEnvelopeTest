@@ -7,14 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BBD1200F1E9F14EE00AF8874 /* MYRedEnveGetDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBD1200E1E9F14EE00AF8874 /* MYRedEnveGetDetailController.m */; };
+		BBD120121E9F2B6300AF8874 /* OpenRedEnveController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBD120111E9F2B6300AF8874 /* OpenRedEnveController.m */; };
+		BBD120151E9F2BBE00AF8874 /* OpenRedEnveView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBD120141E9F2BBE00AF8874 /* OpenRedEnveView.m */; };
 		BBDB079A1E9B2F6700962153 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BBDB07991E9B2F6700962153 /* main.m */; };
 		BBDB079D1E9B2F6700962153 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BBDB079C1E9B2F6700962153 /* AppDelegate.m */; };
-		BBDB07A01E9B2F6700962153 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBDB079F1E9B2F6700962153 /* ViewController.m */; };
 		BBDB07A31E9B2F6700962153 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBDB07A11E9B2F6700962153 /* Main.storyboard */; };
 		BBDB07A51E9B2F6700962153 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBDB07A41E9B2F6700962153 /* Assets.xcassets */; };
 		BBDB07A81E9B2F6700962153 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBDB07A61E9B2F6700962153 /* LaunchScreen.storyboard */; };
 		BBDB07B31E9B2F6700962153 /* RedEnvelopeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BBDB07B21E9B2F6700962153 /* RedEnvelopeTests.m */; };
 		BBDB07BE1E9B2F6700962153 /* RedEnvelopeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BBDB07BD1E9B2F6700962153 /* RedEnvelopeUITests.m */; };
+		BBDB07CD1E9B2FEB00962153 /* SendEnevelopePerController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBDB07CC1E9B2FEB00962153 /* SendEnevelopePerController.m */; };
+		BBDB07D11E9B31EC00962153 /* UIViewController+Navigat.m in Sources */ = {isa = PBXBuildFile; fileRef = BBDB07D01E9B31EC00962153 /* UIViewController+Navigat.m */; };
+		BBDB07D61E9B335600962153 /* UIColor+Expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = BBDB07D51E9B335600962153 /* UIColor+Expanded.m */; };
+		BBDB07DC1E9B547900962153 /* UITextField+EXStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = BBDB07DB1E9B547900962153 /* UITextField+EXStyle.m */; };
+		BBDB07DF1E9B6B9100962153 /* UIButton+SMButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BBDB07DE1E9B6B9100962153 /* UIButton+SMButton.m */; };
+		BBDB07E21E9B714300962153 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = BBDB07E11E9B714300962153 /* UIView+Toast.m */; };
+		BBDB07E81E9C79B800962153 /* ChangePayWayView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBDB07E71E9C79B800962153 /* ChangePayWayView.m */; };
+		BBDB07EB1E9C79D200962153 /* PayPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBDB07EA1E9C79D200962153 /* PayPasswordView.m */; };
+		BBDB07EE1E9C7BCF00962153 /* ChangePayWayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BBDB07ED1E9C7BCF00962153 /* ChangePayWayCell.m */; };
+		BBDB07F11E9C83EA00962153 /* HeadPayView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBDB07F01E9C83EA00962153 /* HeadPayView.m */; };
+		BBDB07F41E9CB46500962153 /* MyRedEnevelopeController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBDB07F31E9CB46500962153 /* MyRedEnevelopeController.m */; };
+		BBDB07F71E9CB71900962153 /* MySendEnvelopView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBDB07F61E9CB71900962153 /* MySendEnvelopView.m */; };
+		BBDB07FA1E9CB74900962153 /* MYReceivedEnevlopeView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBDB07F91E9CB74900962153 /* MYReceivedEnevlopeView.m */; };
+		BBDB07FD1E9CCCCF00962153 /* RedEnvelopDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBDB07FC1E9CCCCF00962153 /* RedEnvelopDetailView.m */; };
+		BBDB08001E9CCEE800962153 /* MyRedEnvelopeDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BBDB07FF1E9CCEE800962153 /* MyRedEnvelopeDetailCell.m */; };
+		BBDB08031E9DBAB700962153 /* SendEnvelopeGroController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBDB08021E9DBAB700962153 /* SendEnvelopeGroController.m */; };
+		BBDB08061E9DCEB500962153 /* NSString+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = BBDB08051E9DCEB500962153 /* NSString+Size.m */; };
+		BBDB08091E9DFB1B00962153 /* UILabel+AddPic.m in Sources */ = {isa = PBXBuildFile; fileRef = BBDB08081E9DFB1B00962153 /* UILabel+AddPic.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +55,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BBD1200D1E9F14EE00AF8874 /* MYRedEnveGetDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYRedEnveGetDetailController.h; sourceTree = "<group>"; };
+		BBD1200E1E9F14EE00AF8874 /* MYRedEnveGetDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYRedEnveGetDetailController.m; sourceTree = "<group>"; };
+		BBD120101E9F2B6300AF8874 /* OpenRedEnveController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OpenRedEnveController.h; path = Categroy/OpenRedEnveController.h; sourceTree = "<group>"; };
+		BBD120111E9F2B6300AF8874 /* OpenRedEnveController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OpenRedEnveController.m; path = Categroy/OpenRedEnveController.m; sourceTree = "<group>"; };
+		BBD120131E9F2BBE00AF8874 /* OpenRedEnveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenRedEnveView.h; sourceTree = "<group>"; };
+		BBD120141E9F2BBE00AF8874 /* OpenRedEnveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenRedEnveView.m; sourceTree = "<group>"; };
 		BBDB07951E9B2F6700962153 /* RedEnvelope.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedEnvelope.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBDB07991E9B2F6700962153 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BBDB079B1E9B2F6700962153 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BBDB079C1E9B2F6700962153 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BBDB079E1E9B2F6700962153 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BBDB079F1E9B2F6700962153 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BBDB07A21E9B2F6700962153 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BBDB07A41E9B2F6700962153 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BBDB07A71E9B2F6700962153 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +75,43 @@
 		BBDB07B91E9B2F6700962153 /* RedEnvelopeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedEnvelopeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBDB07BD1E9B2F6700962153 /* RedEnvelopeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedEnvelopeUITests.m; sourceTree = "<group>"; };
 		BBDB07BF1E9B2F6700962153 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBDB07CB1E9B2FEB00962153 /* SendEnevelopePerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendEnevelopePerController.h; sourceTree = "<group>"; };
+		BBDB07CC1E9B2FEB00962153 /* SendEnevelopePerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SendEnevelopePerController.m; sourceTree = "<group>"; };
+		BBDB07CF1E9B31EC00962153 /* UIViewController+Navigat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Navigat.h"; sourceTree = "<group>"; };
+		BBDB07D01E9B31EC00962153 /* UIViewController+Navigat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Navigat.m"; sourceTree = "<group>"; };
+		BBDB07D31E9B32FF00962153 /* Envelope.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Envelope.pch; sourceTree = "<group>"; };
+		BBDB07D41E9B335100962153 /* UIColor+Expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Expanded.h"; sourceTree = "<group>"; };
+		BBDB07D51E9B335600962153 /* UIColor+Expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Expanded.m"; sourceTree = "<group>"; };
+		BBDB07DA1E9B547900962153 /* UITextField+EXStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+EXStyle.h"; sourceTree = "<group>"; };
+		BBDB07DB1E9B547900962153 /* UITextField+EXStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+EXStyle.m"; sourceTree = "<group>"; };
+		BBDB07DD1E9B6B8900962153 /* UIButton+SMButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+SMButton.h"; sourceTree = "<group>"; };
+		BBDB07DE1E9B6B9100962153 /* UIButton+SMButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+SMButton.m"; sourceTree = "<group>"; };
+		BBDB07E01E9B713F00962153 /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		BBDB07E11E9B714300962153 /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		BBDB07E61E9C79B800962153 /* ChangePayWayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangePayWayView.h; sourceTree = "<group>"; };
+		BBDB07E71E9C79B800962153 /* ChangePayWayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangePayWayView.m; sourceTree = "<group>"; };
+		BBDB07E91E9C79D200962153 /* PayPasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPasswordView.h; sourceTree = "<group>"; };
+		BBDB07EA1E9C79D200962153 /* PayPasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayPasswordView.m; sourceTree = "<group>"; };
+		BBDB07EC1E9C7BCF00962153 /* ChangePayWayCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangePayWayCell.h; sourceTree = "<group>"; };
+		BBDB07ED1E9C7BCF00962153 /* ChangePayWayCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangePayWayCell.m; sourceTree = "<group>"; };
+		BBDB07EF1E9C83EA00962153 /* HeadPayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeadPayView.h; sourceTree = "<group>"; };
+		BBDB07F01E9C83EA00962153 /* HeadPayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeadPayView.m; sourceTree = "<group>"; };
+		BBDB07F21E9CB46500962153 /* MyRedEnevelopeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyRedEnevelopeController.h; sourceTree = "<group>"; };
+		BBDB07F31E9CB46500962153 /* MyRedEnevelopeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyRedEnevelopeController.m; sourceTree = "<group>"; };
+		BBDB07F51E9CB71900962153 /* MySendEnvelopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySendEnvelopView.h; sourceTree = "<group>"; };
+		BBDB07F61E9CB71900962153 /* MySendEnvelopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySendEnvelopView.m; sourceTree = "<group>"; };
+		BBDB07F81E9CB74900962153 /* MYReceivedEnevlopeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYReceivedEnevlopeView.h; sourceTree = "<group>"; };
+		BBDB07F91E9CB74900962153 /* MYReceivedEnevlopeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYReceivedEnevlopeView.m; sourceTree = "<group>"; };
+		BBDB07FB1E9CCCCF00962153 /* RedEnvelopDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedEnvelopDetailView.h; sourceTree = "<group>"; };
+		BBDB07FC1E9CCCCF00962153 /* RedEnvelopDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedEnvelopDetailView.m; sourceTree = "<group>"; };
+		BBDB07FE1E9CCEE800962153 /* MyRedEnvelopeDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyRedEnvelopeDetailCell.h; sourceTree = "<group>"; };
+		BBDB07FF1E9CCEE800962153 /* MyRedEnvelopeDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyRedEnvelopeDetailCell.m; sourceTree = "<group>"; };
+		BBDB08011E9DBAB700962153 /* SendEnvelopeGroController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendEnvelopeGroController.h; sourceTree = "<group>"; };
+		BBDB08021E9DBAB700962153 /* SendEnvelopeGroController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SendEnvelopeGroController.m; sourceTree = "<group>"; };
+		BBDB08041E9DCEB500962153 /* NSString+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Size.h"; sourceTree = "<group>"; };
+		BBDB08051E9DCEB500962153 /* NSString+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Size.m"; sourceTree = "<group>"; };
+		BBDB08071E9DFB1B00962153 /* UILabel+AddPic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+AddPic.h"; sourceTree = "<group>"; };
+		BBDB08081E9DFB1B00962153 /* UILabel+AddPic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+AddPic.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +164,37 @@
 			children = (
 				BBDB079B1E9B2F6700962153 /* AppDelegate.h */,
 				BBDB079C1E9B2F6700962153 /* AppDelegate.m */,
-				BBDB079E1E9B2F6700962153 /* ViewController.h */,
-				BBDB079F1E9B2F6700962153 /* ViewController.m */,
+				BBDB07CE1E9B31C000962153 /* Categroy */,
+				BBD120101E9F2B6300AF8874 /* OpenRedEnveController.h */,
+				BBD120111E9F2B6300AF8874 /* OpenRedEnveController.m */,
+				BBDB07CB1E9B2FEB00962153 /* SendEnevelopePerController.h */,
+				BBDB07CC1E9B2FEB00962153 /* SendEnevelopePerController.m */,
+				BBDB08011E9DBAB700962153 /* SendEnvelopeGroController.h */,
+				BBDB08021E9DBAB700962153 /* SendEnvelopeGroController.m */,
+				BBDB07F21E9CB46500962153 /* MyRedEnevelopeController.h */,
+				BBDB07F31E9CB46500962153 /* MyRedEnevelopeController.m */,
+				BBD1200D1E9F14EE00AF8874 /* MYRedEnveGetDetailController.h */,
+				BBD1200E1E9F14EE00AF8874 /* MYRedEnveGetDetailController.m */,
+				BBD120131E9F2BBE00AF8874 /* OpenRedEnveView.h */,
+				BBD120141E9F2BBE00AF8874 /* OpenRedEnveView.m */,
+				BBDB07E91E9C79D200962153 /* PayPasswordView.h */,
+				BBDB07EA1E9C79D200962153 /* PayPasswordView.m */,
+				BBDB07E61E9C79B800962153 /* ChangePayWayView.h */,
+				BBDB07E71E9C79B800962153 /* ChangePayWayView.m */,
+				BBDB07EC1E9C7BCF00962153 /* ChangePayWayCell.h */,
+				BBDB07ED1E9C7BCF00962153 /* ChangePayWayCell.m */,
+				BBDB07EF1E9C83EA00962153 /* HeadPayView.h */,
+				BBDB07F01E9C83EA00962153 /* HeadPayView.m */,
+				BBDB07F51E9CB71900962153 /* MySendEnvelopView.h */,
+				BBDB07F61E9CB71900962153 /* MySendEnvelopView.m */,
+				BBDB07F81E9CB74900962153 /* MYReceivedEnevlopeView.h */,
+				BBDB07F91E9CB74900962153 /* MYReceivedEnevlopeView.m */,
+				BBDB07FB1E9CCCCF00962153 /* RedEnvelopDetailView.h */,
+				BBDB07FC1E9CCCCF00962153 /* RedEnvelopDetailView.m */,
+				BBDB07FE1E9CCEE800962153 /* MyRedEnvelopeDetailCell.h */,
+				BBDB07FF1E9CCEE800962153 /* MyRedEnvelopeDetailCell.m */,
 				BBDB07A11E9B2F6700962153 /* Main.storyboard */,
+				BBDB07D31E9B32FF00962153 /* Envelope.pch */,
 				BBDB07A41E9B2F6700962153 /* Assets.xcassets */,
 				BBDB07A61E9B2F6700962153 /* LaunchScreen.storyboard */,
 				BBDB07A91E9B2F6700962153 /* Info.plist */,
@@ -138,6 +227,27 @@
 				BBDB07BF1E9B2F6700962153 /* Info.plist */,
 			);
 			path = RedEnvelopeUITests;
+			sourceTree = "<group>";
+		};
+		BBDB07CE1E9B31C000962153 /* Categroy */ = {
+			isa = PBXGroup;
+			children = (
+				BBDB07E01E9B713F00962153 /* UIView+Toast.h */,
+				BBDB07E11E9B714300962153 /* UIView+Toast.m */,
+				BBDB07D41E9B335100962153 /* UIColor+Expanded.h */,
+				BBDB07D51E9B335600962153 /* UIColor+Expanded.m */,
+				BBDB07CF1E9B31EC00962153 /* UIViewController+Navigat.h */,
+				BBDB07D01E9B31EC00962153 /* UIViewController+Navigat.m */,
+				BBDB07DA1E9B547900962153 /* UITextField+EXStyle.h */,
+				BBDB07DB1E9B547900962153 /* UITextField+EXStyle.m */,
+				BBDB07DD1E9B6B8900962153 /* UIButton+SMButton.h */,
+				BBDB07DE1E9B6B9100962153 /* UIButton+SMButton.m */,
+				BBDB08041E9DCEB500962153 /* NSString+Size.h */,
+				BBDB08051E9DCEB500962153 /* NSString+Size.m */,
+				BBDB08071E9DFB1B00962153 /* UILabel+AddPic.h */,
+				BBDB08081E9DFB1B00962153 /* UILabel+AddPic.m */,
+			);
+			path = Categroy;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +317,7 @@
 				TargetAttributes = {
 					BBDB07941E9B2F6600962153 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 56JAM34B5U;
 						ProvisioningStyle = Automatic;
 					};
 					BBDB07AD1E9B2F6700962153 = {
@@ -273,9 +384,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBDB07A01E9B2F6700962153 /* ViewController.m in Sources */,
+				BBDB07E21E9B714300962153 /* UIView+Toast.m in Sources */,
+				BBDB07FA1E9CB74900962153 /* MYReceivedEnevlopeView.m in Sources */,
+				BBDB08031E9DBAB700962153 /* SendEnvelopeGroController.m in Sources */,
+				BBDB07F41E9CB46500962153 /* MyRedEnevelopeController.m in Sources */,
+				BBDB07FD1E9CCCCF00962153 /* RedEnvelopDetailView.m in Sources */,
+				BBDB07F71E9CB71900962153 /* MySendEnvelopView.m in Sources */,
+				BBDB07EE1E9C7BCF00962153 /* ChangePayWayCell.m in Sources */,
+				BBD120151E9F2BBE00AF8874 /* OpenRedEnveView.m in Sources */,
 				BBDB079D1E9B2F6700962153 /* AppDelegate.m in Sources */,
+				BBDB07F11E9C83EA00962153 /* HeadPayView.m in Sources */,
+				BBDB07CD1E9B2FEB00962153 /* SendEnevelopePerController.m in Sources */,
+				BBDB08061E9DCEB500962153 /* NSString+Size.m in Sources */,
+				BBD120121E9F2B6300AF8874 /* OpenRedEnveController.m in Sources */,
 				BBDB079A1E9B2F6700962153 /* main.m in Sources */,
+				BBD1200F1E9F14EE00AF8874 /* MYRedEnveGetDetailController.m in Sources */,
+				BBDB07D11E9B31EC00962153 /* UIViewController+Navigat.m in Sources */,
+				BBDB07DC1E9B547900962153 /* UITextField+EXStyle.m in Sources */,
+				BBDB07D61E9B335600962153 /* UIColor+Expanded.m in Sources */,
+				BBDB07DF1E9B6B9100962153 /* UIButton+SMButton.m in Sources */,
+				BBDB08001E9CCEE800962153 /* MyRedEnvelopeDetailCell.m in Sources */,
+				BBDB08091E9DFB1B00962153 /* UILabel+AddPic.m in Sources */,
+				BBDB07EB1E9C79D200962153 /* PayPasswordView.m in Sources */,
+				BBDB07E81E9C79B800962153 /* ChangePayWayView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,7 +555,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 56JAM34B5U;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = RedEnvelope/Envelope.pch;
 				INFOPLIST_FILE = RedEnvelope/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mengdy.RedEnvelope;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -435,7 +570,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 56JAM34B5U;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = RedEnvelope/Envelope.pch;
 				INFOPLIST_FILE = RedEnvelope/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mengdy.RedEnvelope;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -507,6 +646,7 @@
 				BBDB07C41E9B2F6700962153 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BBDB07C51E9B2F6700962153 /* Build configuration list for PBXNativeTarget "RedEnvelopeTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +655,7 @@
 				BBDB07C71E9B2F6700962153 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BBDB07C81E9B2F6700962153 /* Build configuration list for PBXNativeTarget "RedEnvelopeUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +664,7 @@
 				BBDB07CA1E9B2F6700962153 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  UITextField+EXStyle.h
 //  RedEnvelope
 //
 //  Created by mengdy on 17/4/10.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface UITextField (EXStyle)
 
+-(void)makeTextFieldPlaceholer;
 
 @end
-

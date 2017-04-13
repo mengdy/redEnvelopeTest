@@ -7,6 +7,12 @@
 //
 
 #import "AppDelegate.h"
+#import "SendEnevelopePerController.h"    //个人发红包
+#import "MyRedEnevelopeController.h"      // 我的红包，收到发出
+#import "SendEnvelopeGroController.h"     //  群发红包
+#import "MYRedEnveGetDetailController.h"  //我的红包  个人
+
+#import "OpenRedEnveController.h"     //拆红包入口
 
 @interface AppDelegate ()
 
@@ -16,7 +22,16 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window.bounds = [UIScreen mainScreen].bounds;
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent animated:NO];
+    self.window.rootViewController = [[UINavigationController alloc]initWithRootViewController:[[OpenRedEnveController alloc] init]];
+    
+    
+    
+    
     return YES;
 }
 

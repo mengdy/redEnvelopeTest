@@ -1,0 +1,35 @@
+//
+//  Envelope.pch
+//  RedEnvelope
+//
+//  Created by mengdy on 17/4/10.
+//  Copyright © 2017年 mengdy. All rights reserved.
+//
+
+#ifndef Envelope_pch
+#define Envelope_pch
+
+
+
+
+#endif /* Envelope_pch */
+
+/*-------------------- 屏幕适配 -----------------------------*/
+/** 屏幕高度 */
+#define kScreenHeight [UIScreen mainScreen].bounds.size.height
+/** 屏幕宽度 */
+#define kScreenWidth [UIScreen mainScreen].bounds.size.width
+/** 高度比例 */
+#define kScreen_H_Scale (kScreenHeight*1.0/667)
+/** 宽度比例 */
+#define kScreen_W_Scale (kScreenWidth/375)
+
+
+
+
+
+
+/*-------------------背景颜色---------------------------------*/
+#define BACKEGROUNDCOLOR  [UIColor colorWithRed:245.f/255.f green:245.f/255.f blue:245.f/255.f alpha:1]
+
+#define NAVIBGCOLOR       [UIColor colorWithRed:238/255.f green:78/255.f blue:78/255.f alpha:1]
